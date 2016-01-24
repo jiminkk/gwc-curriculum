@@ -1,12 +1,2 @@
 # File: _config.yml
-# collections:
-#   - 
-source: _site
-destination: _site
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages"
-    values:
-      layout: "default"
+name: Jasmine Kim, Full Stack Developer
