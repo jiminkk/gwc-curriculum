@@ -9,9 +9,9 @@ date: 2016-01-24
 ### 1. Why we use variables
 You can use variables to store values with unique names. You can think of these as storage units with names that describe what the values mean. For example:
 <pre><code>
-	var myNumber = 7;
-	var myString = "Sup";
-	var myBoolean = true;
+	var number = 7;
+	var str = "Sup";
+	var bool = true;
 </code></pre>
 
 We will go into what these types are in a second.
@@ -43,31 +43,35 @@ Whichever value you initialize your variables with, that variable will be define
 
 **Number**
 
-* Integers, floating points
+> Integers, floating points
 
 **String**
 
-* Anything in \" \" or \' \'
+> Anything in \" \" or \' \'
 
 **Boolean**
 
-* False or True
+> False or True
 
 **Undefined**
 
-* The value will come out to be \"undefined\" when you did not initialize it with anything.
-	<pre><code>
-		var value;
-		console.log("print out value: " + value);
-	</code></pre>
+> The value will come out to be \"undefined\" when you did not initialize it with anything.
+
+<pre><code>
+	var value;
+	console.log("value is " + value);
+</code></pre>
+> This prints out *value is undefined*.
 
 **Null**
 
-* Null is when you want to purposely set an empty value.
-	<pre><code>
-		var value = null;
-		console.log("print out value: " + value);
-	</code></pre>
+> Null is when you want to purposely set an empty value.
+
+<pre><code>
+	var value = null;
+	console.log("value is " + value);
+</code></pre>
+> This prints out *value is null*.
 
 ### 3. What you can do with variables
 In addition to just using `var` to declare any type of variable, you can also change its data type after you initialize it. So for instance:
@@ -75,7 +79,18 @@ In addition to just using `var` to declare any type of variable, you can also ch
 	var value = 7;
 	value = "I am now a string."
 </code></pre>
+
 This is technically right, and Javascript will not throw you any error. However, this is **not** good coding. You always want to be consistent with your data types - once you start switching your data types, it will be confusing which variables are which types after numerous lines of code.
+
+You can also concatenate variables together and change their values.
+<pre><code>
+	var answer = "Value is " + 7;
+	console.log(answer);
+</code></pre>
+> This should print *Value is 7*.
+
+
+
 
 
 
