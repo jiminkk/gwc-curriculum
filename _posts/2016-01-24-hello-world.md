@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 1: Javascript Basics"
+title: "Chapter 1: JavaScript Basics"
 date: 2016-01-24
 ---
 
