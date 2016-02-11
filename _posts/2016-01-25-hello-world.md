@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chapter 1: JavaScript Basics"
-date: 2016-01-24
+date: 2016-01-25
 ---
 
 ## Variables and Types

@@ -1,3 +1,7 @@
+/* jasmine's additions */
+
+img[alt=blackBox] { width: 400px;}
+
 body { 
 	margin: 60px auto; 
 	width: 65%; 
