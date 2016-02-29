@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Project I: Real-Time Clock"
+date: 2016-02-11
+---
+
+## Project I - Clock
+
+### 1. Creating the function
+
+I will step with you through the steps of creating the function for the clock.
+
+First create a function called clock.
+
+Inside that function, create a new variable called currentTime. We are actually creating a new **instance** of an object called Date() (we will go over instances and objects in the next lesson).
+
+Your declaration and initialization should look like this:
+
+<pre><code>
+	var currentTime = new Date();
+</code></pre>
+
+Every time you create a new instance of an object, you use the **new** keyword. This is all inside the function we created first.
+
+Now create a *hours* variable that is assigned the currentTime's hours function:
+
+<pre><code>
+	var hours = currentTime.getHours();
+</code></pre>
+
+Create two more variables that get *minutes* and *seconds* using the functions:
+
+> getMinutes()
+
+> getSeconds()
+
+So now we should have hours, minutes, and seconds variables. We want to display these variables in a clock-like display, using colons. Can we console log the entire time in the clock display? (hint: concatenate hours, minutes, and seconds using the add operator.)
+
+It should look like this when you console log the time:
+
+<pre><code>
+	"15:19:7"			// some current time you're doing this
+</code></pre>
+
+
+
+
