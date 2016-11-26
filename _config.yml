@@ -2,5 +2,5 @@
 name: Jasmine Kim, Full Stack Developer
 markdown: kramdown
 
-baseurl: "https://jiminkk.github.io/blog-of-everything" # the subpath of your site, e.g. /blog/
-url: "https://jiminkk.github.io/blog-of-everything" # the base hostname & protocol for your site
+baseurl: "https://jiminkk.github.io/gwc-curriculum" # the subpath of your site, e.g. /blog/
+url: "https://jiminkk.github.io/gwc-curriculum" # the base hostname & protocol for your site
